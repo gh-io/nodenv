@@ -1,0 +1,15 @@
+metadataOverrides:
+  domain: llm
+  architectures:
+    - qwen3
+  compatibilityTypes:
+    - gguf
+    - safetensors
+  paramsStrings:
+    - 8B
+  minMemoryUsageBytes: 4600000000
+  contextLengths:
+    - 40960
+  vision: false
+  reasoning: true
+  trainedForToolUse: true
